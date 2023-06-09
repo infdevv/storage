@@ -1,5 +1,5 @@
 <?php
-  $url = $_GET['url']; 
+  $url = $_POST['url'];
 
   $data = file_get_contents($url);
 
